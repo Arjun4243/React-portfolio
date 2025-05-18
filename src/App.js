@@ -6,7 +6,7 @@ import HeroMain from "./component/hero/HeroMain.jsx";
 function App() {
    return(
       <>
-      <div className='max-w-[1500px]'> 
+      <div className=''> 
          <NavebarMain />
          <HeroMain/>
       </div>

@@ -5,7 +5,7 @@ function NavebarLogo() {
   return (
     <>
       <div>
-        <img  className="logo h-8 mx-4" src={logo} />
+        <img  className="logo h-8 mx-4 " src={logo} />
       </div>
 
 

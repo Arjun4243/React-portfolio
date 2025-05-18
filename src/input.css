@@ -7,12 +7,12 @@
 
 body {
   background-color: #374151;
+
 }
 
-* {
+*{
   box-sizing: border-box;
-  max-width: 1500px;
-  margin:auto auto
+ 
 }
 
 .nav-link {
@@ -57,12 +57,12 @@ body {
   background-size: cover;
 }
 
+
 .here-main{
   padding-top: 7rem;
-  width: 1500px;
-   
+  width: 90%;
+  max-width: 1500px;
 }
-
 
 
 .hexagon{
