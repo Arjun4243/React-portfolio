@@ -601,6 +601,54 @@ video {
   left: 50%;
 }
 
+.right-\[400px\]{
+  right: 400px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.right-\[0px\]{
+  right: 0px;
+}
+
+.top-20{
+  top: 5rem;
+}
+
+.top-\[\]{
+  top: ;
+}
+
+.top-\[300px\]{
+  top: 300px;
+}
+
+.left-\[0px\]{
+  left: 0px;
+}
+
+.top-\[px\]{
+  top: px;
+}
+
+.top-\[3px\]{
+  top: 3px;
+}
+
+.top-\[400px\]{
+  top: 400px;
+}
+
+.top-\[500px\]{
+  top: 500px;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -664,6 +712,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.animate-pulse{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 @keyframes spin{
   to{
     transform: rotate(360deg);
@@ -672,6 +730,10 @@ video {
 
 .animate-spin{
   animation: spin 1s linear infinite;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .place-content-center{
@@ -692,10 +754,6 @@ video {
 
 .justify-around{
   justify-content: space-around;
-}
-
-.justify-evenly{
-  justify-content: space-evenly;
 }
 
 .gap-1{
@@ -800,6 +858,22 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(241 225 217 / var(--tw-text-opacity, 1));
+}
+
+.opacity-50{
+  opacity: 0.5;
+}
+
+.shadow-cyanMediumShadow{
+  --tw-shadow: 10px 10px 200px 150px rgba(94, 206,220,0.5);
+  --tw-shadow-colored: 10px 10px 200px 150px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-orangeMediumShadow{
+  --tw-shadow: 10px 10px 200px 150px rgba(240,169,79,0.5);
+  --tw-shadow-colored: 10px 10px 200px 150px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .blur-sm{
@@ -912,10 +986,6 @@ body {
 }
 
 @media (min-width: 768px){
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:text-\[2\.8rem\]{
     font-size: 2.8rem;
   }
