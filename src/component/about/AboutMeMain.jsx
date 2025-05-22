@@ -5,7 +5,7 @@ import AboutMeImage from "./AboutMeImage";
 export default function AboutMeMain() {
   return (
     <>
-      <div className="container flex md:flex-row sm:flex-col gap-12 px-4  mx-auto mt-[100px] justify-between items-center">
+      <div className="container flex md:flex-row sm:flex-col gap-12 px-4  mx-auto mt-[100px] justify-center items-center">
         <div>
           <AboutMeText />
         </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import SingleSkill from "./SingleSkill.jsx";
+import React from "react"
+
 import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
@@ -52,17 +52,15 @@ export default function AllSkills(){
 
     ]
 
-    return (
-        <div className="container flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto ">
-            {skills.map((e, index) => {
-                return <SingleSkill key={index} text={e.skill} imgSvg={<e.icon />} />;
-            })}
 
-            <div>
-            <img src={skills.icon}></img>
-            </div>
+    return(
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 my-12">
+{skills.map((e, index) => {
+    return <div key={index} className="flex flex-col items-center">
+        <e.icon className="text-7xl text-orange" />
+        <p className="text-center mt-4 text-white ">{e.skill}</p>
+    </div>
+})}
         </div>
-
-        
-        );
-    }
+    )
+}

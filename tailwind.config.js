@@ -32,10 +32,7 @@ module.exports = {
       },
 
       boxShadow:{
-        "custome-blue":"0px 4px 10px blue",
-        cyanShadow:"0px 0px 20px 0px",
-        cyanMediumShadow:"10px 10px 200px 150px rgba(94, 206,220,0.5)",
-        orangeMediumShadow:"10px 10px 200px 150px rgba(240,169,79,0.5)",
+        "custome-blue":"0px 4px 10px blue"
       }
     },
   },

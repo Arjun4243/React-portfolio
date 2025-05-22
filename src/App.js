@@ -1,20 +1,23 @@
 import './App.css';
+import React from 'react';
 import NavebarMain from "./component/navbar/navebarMain.jsx";
 import HeroMain from "./component/hero/HeroMain.jsx";
-import SubHeroSection from './component/hero/SubHeroSection.jsx';
-import AboutMeMain from './component/about/AboutMeMain.jsx';
-import SkillsMain from './component/skillsSection/SkillsMain.jsx';
-
+import AboutMeMain from "./component/about/AboutMeMain.jsx";
+import SkillsMain from "./component/skillsSection/SkillsMain.jsx";
+import SubSkills from "./component/skillsSection/SubSkills.jsx"
+import ProjectsMain from './component/projects/ProjectsMain.jsx';
 
 function App() {
    return(
       <>
-      <div> 
+      <div className='max-w-[1500px] mx-auto'> 
          <NavebarMain />
          <HeroMain/>
-         <SubHeroSection/>
          <AboutMeMain/>
          <SkillsMain/>
+         <SubSkills/>
+         <ProjectsMain/>
+
       </div>
       </>
   );
