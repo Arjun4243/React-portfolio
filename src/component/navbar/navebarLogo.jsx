@@ -1,15 +1,14 @@
 import React from "react";
-import logo from "../../image/logo.png"; 
+import logo from '../../image/logo.png'; // adjust path as needed
 
 function NavebarLogo() {
   return (
     <>
       <div>
-        <img  className="logo h-8 mx-4 " src={logo} />
+        <img src={logo} alt="Logo" className='logo h-8 mx-4' />
       </div>
-
-
     </>
   );
 }
+
 export default NavebarLogo;

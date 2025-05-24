@@ -55,6 +55,9 @@ body {
 
 .logo {
   background-size: cover;
+      height: 3rem;
+    max-width: auto;
+    margin-left: 2rem;
 }
 
 
