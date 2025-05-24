@@ -1,6 +1,6 @@
 import React from "react";
 import HeroText from "./HeroText.jsx";
-import HeroPic from "./heroPic.jsx";
+import HeroPic from "./HeroPic.jsx";
 import HeroGrediant from "./HeroGrediant.jsx";
 import SubHeroSection from "./SubHeroSection.jsx"
 
