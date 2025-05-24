@@ -59,8 +59,7 @@ export default function AllSkills(){
             })}
 
             <div>
-            <img alt="skills_icon"
-    src={skills.icon}></img>
+            <img src={skills.icon} alt="" />
             </div>
         </div>
 
