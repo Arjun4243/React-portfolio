@@ -8,7 +8,7 @@ import SubHeroSection from "./SubHeroSection.jsx"
 export default function HeroMain() {
   return (
     <section className="relative overflow-hidden pt-16">
-      <div className="hero-main container w-full mx-auto flex flex-col lg:flex-row justify-around items-center">
+      <div className="hero-main container w-full mx-auto flex flex-col lg:flex-row justify-around items-center sm:mt-40 px-4">
         <HeroText />
         <HeroPic />
       </div>

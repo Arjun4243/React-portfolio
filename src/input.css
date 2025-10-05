@@ -2,48 +2,38 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
   background-color: #374151;
-
-}
-
-*{
-  box-sizing: border-box;
  
 }
 
-.nav-link {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  color: #F3F4F6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: auto;
-}
-
-.nav-link-chiled {
-  display: flex;
-  flex-direction: row;
-  gap: 2.5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-link-chiled {
+@layer components {
+  .nav-link {
+    font-family: 'Josefin Sans', 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #e5e7eb; /* Tailwind's text-gray-200 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+  .nav-link-child {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem; /* gap-10 in Tailwind is 2.5rem */
+  }
+  .nav-link-child-mobile {
+    display: flex;
     flex-direction: column;
-    position:absolute;
-    top:6rem;
-    box-shadow:2px 2px 10px white;
+    position: absolute;
+    top: 6rem; /* top-24 in Tailwind is 6rem */
+    box-shadow: 2px 2px 10px white;
     width: 94vw;
-    gap: 1rem;
-    margin-left:7rem;
+    gap: 1rem; /* gap-4 in Tailwind is 1rem */
+    margin-left: 7rem; /* ml-28 in Tailwind is 7rem */
     text-decoration: none;
   }
-    
 }
 
 
