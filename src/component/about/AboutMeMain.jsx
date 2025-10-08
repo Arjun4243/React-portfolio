@@ -5,13 +5,12 @@ import AboutMeImage from "./AboutMeImage";
 export default function AboutMeMain() {
   return (
     <>
-      <div className=" flex md:flex-row sm:flex-col gap-12 px-4  mx-auto mt-[100px] justify-center items-center">
-        <div>
-          <AboutMeText />
-        </div>
-        <div>
-          <AboutMeImage />
-        </div>
+      <div className="flex container mx-auto mt-[30px] justify-center items-center">
+      
+          <AboutMeText className="w-[322px]" />
+       
+          <AboutMeImage className="w-[300px]" />
+       
       </div>
     </>
   );
