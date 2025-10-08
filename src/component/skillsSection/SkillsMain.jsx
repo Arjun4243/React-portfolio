@@ -1,7 +1,6 @@
 import React from "react";
 import SkillsText from "./SkillsText";
 import AllSkill from "./AllSkills";
-import AllSkillSM from "./AllSkillSM"
 
 export default function SkillsMain() {
   return (

@@ -34,6 +34,11 @@ body {
     margin-left: 7rem; /* ml-28 in Tailwind is 7rem */
     text-decoration: none;
   }
+  .here-main {
+    padding-top: 7rem; /* pt-28 in Tailwind is 7rem */
+    width: 90%;
+    max-width: 1500px;
+  }
 }
 
 
@@ -49,14 +54,6 @@ body {
     max-width: auto;
     margin-left: 2rem;
 }
-
-
-.here-main{
-  padding-top: 7rem;
-  width: 90%;
-  max-width: 1500px;
-}
-
 
 .hexagon{
   animation-duration: 3s;

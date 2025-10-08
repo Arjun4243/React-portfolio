@@ -21,7 +21,7 @@ function NavebarMain() {
 
   return (
     <>
-      <nav className="container text-white  mx-auto px-4 w-full fixed left-[50%] transform -translate-x-[50%] z-20 flex gap-4 mt-2">
+      <nav className=" text-white  mx-auto px-4 w-full fixed left-[50%] transform -translate-x-[50%] z-20 flex gap-4 mt-2">
         <div className="flex justify-between w-full  mx-auto bg-black items-center p-3 rounded-full border-3 border-orange ">
           <NavebarLogo />
           <div className="nav-link ">
@@ -29,7 +29,7 @@ function NavebarMain() {
             <NavebarLink />
           </div>
           </div>
-          <NavebarButton />
+          <NavebarButton /> 
         </div>
 
         <button onClick={handleNavBurger}>
