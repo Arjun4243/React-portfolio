@@ -3,10 +3,10 @@ import React from "react";
 export default function AboutMeText(){
     return(
         <>
-            <div className="flex  flex-col md:items-start sm:items-center md:text-left sm:text-center">
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl text-cyan mb-10">About me</h2>
-                <p className="text-white text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, quasi. Praesentium commodi voluptates, mollitia enim facere odio, nobis harum libero reiciendis quae iste magni amet nulla, sed quia officia ut.</p>
-                <button className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-st art sm:self-center container text-white">My Project</button>
+            <div className="flex flex-col items-center text-center">
+                <h2 className="text-4xl sm:text-5xl lg:text-6xl text-cyan  mb-10">About me</h2>
+                <p className="text-white w-40 mb-4 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, quasi. Praesentium commodi voluptates, mollitia enim facere odio, nobis harum libero reiciendis quae iste magni amet nulla, sed quia officia ut.</p>
+                <button className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer container text-white text-center w-[50px]">My Project</button>
             </div>
         </>
     )

@@ -36,9 +36,9 @@ const projects=[{
 export default function ProjectsMain() {
 
   return (
-    <div id='projects' className='max-w-[1200px] mx-auto px-4'>
+    <div id='projects' className=' mx-auto '>
         <ProjectsText/>
-        <div className="flex flex-col gap20 max-w-[1200px] mx-auto mt-12">
+        <div className="flex flex-col   w-[350px] lg:max-w-[1200px] mx-auto mt-12">
             {projects.map((e, index) => (
                 <SingleProjects key={index} name={e.name} description={e.description} align={e.align} link={e.link} image={e.image} />
             ))}
