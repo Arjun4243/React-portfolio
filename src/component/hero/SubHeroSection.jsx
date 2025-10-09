@@ -2,7 +2,7 @@ import React from "react";
 export default function SubHeroSection(){
     return(
         <>
-        <div className="container 
+        <div className="mx-4 
         my-14 mx-auto border-y border-lightGrey text-lightGrey flex justify-around uppercase 
         
         xl:text-3xl md:text-2xl sm:text-4xl py-6 items-center gap-4 bg-brown">

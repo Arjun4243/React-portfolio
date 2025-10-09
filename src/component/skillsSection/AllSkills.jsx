@@ -53,7 +53,7 @@ export default function AllSkills(){
     ]
 
     return (
-        <div className="container flex items-center justify-center relative gap-2  mx-auto ">
+        <div className="mx-4 flex items-center justify-center relative gap-2 ">
             {skills.map((e, index) => {
                 return <SingleSkill key={index} text={e.skill} imgSvg={<e.icon />} />;
             })}

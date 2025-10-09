@@ -25,7 +25,7 @@ function NavebarMain() {
         <div className="flex justify-between w-full  mx-auto bg-black items-center p-3 rounded-full border-3 border-orange ">
           <NavebarLogo />
           <div className=" ">
-            <div className={`${navBurger ? "block" : "hidden"} lg:block `}>
+            <div className={`${navBurger ? "block" : "hidden"} lg:block container `}>
               <NavebarLink className="" />
             </div>
           </div>
