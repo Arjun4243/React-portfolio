@@ -6,7 +6,7 @@ function NavebarButton(){
     return (
         <>
             <button
-                className="hidden lg:flex resume-button items-center border border-cyan gap-1 rounded-full pl-3 bg-gradient-to-r from-cyan to-orange font-bold text-black hover:scale-110 transition-all duration-100 shadow-custom-blue"
+                className="hidden lg:flex resume-button items-center border border-cyan gap-1 rounded-full pl-3 bg-gradient-to-r from-cyan to-orange font-bold text-black hover:scale-110 transition-all duration-100 shadow-custom-blue md:block lg:block"
             >
                 Download Resume
                 <span>
