@@ -11,7 +11,7 @@ import ContactMain from './component/contacts/ContactMain.jsx';
 function App() {
    return(
       <>
-      <div className='max-w-[1500px] mx-auto'> 
+      <div className='max-w-[1300px] mx-auto'> 
          <NavebarMain />
          <HeroMain/>
          <AboutMeMain/>
