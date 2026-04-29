@@ -4,7 +4,7 @@ import AboutMeImage from "./AboutMeImage";
 
 export default function AboutMeMain() {
   return (
-    <div className=" flex px-4 mt-8 justify-between items-center">
+    <div className="  flex px-4 mt-8 justify-around items-center">
       <AboutMeText />
       <AboutMeImage />
     </div>

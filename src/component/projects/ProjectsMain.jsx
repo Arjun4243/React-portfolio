@@ -38,7 +38,7 @@ export default function ProjectsMain() {
   return (
     <div id='projects' className=' mx-auto '>
         <ProjectsText/>
-        <div className="flex flex-col   w-[350px] lg:max-w-[1200px] mx-4 mt-12">
+        <div className="flex flex-col justify-center  w-[350px] lg:max-w-[1100px] mx-4 mt-12">
             {projects.map((e, index) => (
                 <SingleProjects key={index} name={e.name} description={e.description} align={e.align} link={e.link} image={e.image} />
             ))}

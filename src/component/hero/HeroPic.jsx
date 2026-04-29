@@ -6,10 +6,10 @@ export default function HeroPic() {
   return (
     <>
       <div className=" pic">
-        <img src={me} alt="hero" className=" w-60 h-auto  " />
+        <img src={me} alt="hero" className=" w-60  " />
 
         <div className="">
-          <FiHexagon className="hexagon w-72 sm:w-48 h-auto absolute text-cyan animate-spin duration-1000 blur-sm " />
+          <FiHexagon className="hexagon lg:top-8 w-72 sm:w-48 h-auto absolute text-cyan animate-spin duration-1000 blur-sm " />
         </div>
       </div>
     </>

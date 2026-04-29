@@ -2,7 +2,7 @@ import React from "react";
 import SkillsText from "./SkillsText";
 import AllSkill from "./AllSkills";
 import AllSkillsSM from "./AllSkillsSM";
-import SkillsSpinner from "./SkillsSpinner";
+// import SkillsSpinner from "./SkillsSpinner";
 
 export default function SkillsMain() {
   return (
